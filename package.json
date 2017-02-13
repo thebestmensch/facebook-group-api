@@ -1,0 +1,38 @@
+{
+  "name": "facebook-group-api",
+  "version": "0.0.1",
+  "description": "Uses Facebook's GraphQL API to pull group member data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMensch/facebook-group-api.git"
+  },
+  "keywords": [
+    "facebook",
+    "member",
+    "group",
+    "node",
+    "graphql"
+  ],
+  "author": "james@jamesmensch.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JMensch/facebook-group-api/issues"
+  },
+  "homepage": "https://github.com/JMensch/facebook-group-api#readme",
+  "dependencies": {
+    "csv": "^1.1.1",
+    "express": "^4.14.1",
+    "fbgraph": "^1.4.1",
+    "fs": "0.0.1-security",
+    "json2csv": "^3.7.3",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "requests": "^0.1.7"
+  }
+}
